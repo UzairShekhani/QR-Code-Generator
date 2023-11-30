@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+    background-image: url(https://deep-image.ai/blog/content/images/2023/06/ojopjojokjo.png);
+  /* background: black; */
+}
+.container {
+  width: 400px;
+  padding: 25px 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #000000;
+  border-radius: 10px;
+}
+.container p {
+    color: white    ;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+.container input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ffffff;
+  outline: 0;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border-radius: 5px;
+}
+.container button {
+  width: 100%;
+  height: 50px;
+  background: #fefefe;
+  color: white;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  font-weight: 500;
+}
+#imgBox {
+  width: 200px;
+  border-radius: 5px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height ease 1s;
+}
+#imgBox img {
+  width: 100%;
+  padding: 10px;
+}
+#imgBox.show-img {
+  max-height: 300px;
+  margin: 10px auto;
+  border: 1px solid #d1d1d1;
+}
